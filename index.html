@@ -9,8 +9,32 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- favicon link -->
     <link rel="icon" type="image/x-icon" href="/images/pencil-kolom.png">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7d42369223.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header>
+        <div class="grid md:grid-cols-12 sm:grid-cols-12 gap-8 m-5 p-5 flex items-center">
+            <h1 class="text-purple-900 font-bold text-6xl col-span-9">Essential Book Shop</h1>
+
+            <input class=" border-2 border-black col-span-2" type="search" name="search" id="nav-search" placeholder="search">
+
+            <i class="fa-solid fa-magnifying-glass col-span-1"></i>
+        </div>
+
+        <nav id="nav-items" class="bg-purple-800 my-12 p-5 text-slate-100 cursor-pointer">
+            <ul class="flex justify-around font-bold text-xl">
+                <li>Home</li>
+                <li id="books">Books</li>
+                <li id="stationary">Stationary</li>
+                <li id="other">Other</li>
+                <li>Call Now</li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <script src="./js/interactive.js"></script>
+
 </body>
 </html>
