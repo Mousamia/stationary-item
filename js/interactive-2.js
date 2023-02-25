@@ -34,6 +34,7 @@ gettingBooks.addEventListener('click', function(){
 });
 
 const gettingStationary = document.getElementById("stationary");
+console.log(gettingStationary);
 gettingBooks.addEventListener('click', function(){
     for (const stationary of stationarys ){
         const stationaryList = document.getElementById("stationary-list");
