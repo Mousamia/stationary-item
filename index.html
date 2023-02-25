@@ -25,8 +25,16 @@
         <nav id="nav-items" class="bg-purple-800 my-12 p-5 text-slate-100 cursor-pointer">
             <ul class="flex justify-around font-bold text-xl">
                 <li>Home</li>
-                <li id="books">Books</li>
-                <li id="stationary">Stationary</li>
+                <li id="books"  onclick="addElements()">Books
+                    <ul id="book-list">
+
+                    </ul>
+                </li>
+                <li id="stationary">Stationary
+                    <ul id="stationary-list">
+
+                    </ul>
+                </li>
                 <li id="other">Other</li>
                 <li>Call Now</li>
             </ul>
@@ -34,7 +42,7 @@
 
     </header>
 
-    <script src="./js/interactive.js"></script>
+    <script src="./js/interactive-2.js"></script>
 
 </body>
 </html>
